@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <!-- Add the uses-feature tag for camera permission -->
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:name="com.herbi.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApp"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name="com.herbi.app.modules.result.ui.ResultActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.herbi.app.modules.homefeed.ui.HomeFeedActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.herbi.app.modules.bayabastagalogactivity.ui.BayabasTagalogActivityActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.herbi.app.modules.ampalayaeng.ui.AmpalayaEngActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.herbi.app.modules.splashscreen.ui.SplashScreenActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herbi.app.modules.malunggaytagalogactivity.ui.MalunggayTagalogActivityActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.herbi.app.modules.howworks.ui.HowWorksActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.herbi.app.modules.oreganoenglish.ui.OreganoEnglishActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.herbi.app.modules.ampalayafil.ui.AmpalayaFilActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.herbi.app.modules.alugbatieng.ui.AlugbatiEngActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.herbi.app.modules.welcome.ui.WelcomeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.herbi.app.modules.alugbatifilactivity.ui.AlugbatiFilActivityActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.herbi.app.modules.oreganotagalog.ui.OreganoTagalogActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.herbi.app.modules.malunggayenglishactivity.ui.MalunggayEnglishActivityActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.herbi.app.modules.bayabasenglishactivity.ui.BayabasEnglishActivityActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.herbi.app.modules.termsandpolicy.ui.TermsAndPolicyActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

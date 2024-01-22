@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="resultVM" type="com.herbi.app.modules.result.data.viewmodel.ResultVM"/>
+    </data>
+    <FrameLayout
+        android:id="@+id/frameRESULT"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        style="@style/groupStylewhite_A700">
+
+        <!-- Toolbar -->
+        <LinearLayout
+            android:id="@+id/linearColumnlogog"
+            android:layout_gravity="top|start"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginTop="@dimen/_3pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15pxh"
+                android:layout_marginStart="@dimen/_15pxh"
+                android:layout_width="match_parent"
+                app:contentInsetStart="0dp">
+
+                <!-- Logo and Title -->
+                <LinearLayout
+                    android:id="@+id/linearRowlogog"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageLogog"
+                        android:layout_height="@dimen/_40pxh"
+                        android:layout_width="@dimen/_40pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_logog"
+                        tools:ignore="ContentDescription"
+                        tools:src="@drawable/img_logog"/>
+
+                    <TextView
+                        android:id="@+id/txtUnlockingtheH"
+                        android:ellipsize="end"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_7pxv"
+                        android:layout_marginStart="@dimen/_34pxh"
+                        android:layout_marginTop="@dimen/_16pxv"
+                        android:layout_weight="0.86"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        style="@style/txtNunitoitalicregular11"
+                        tools:text="@string/msg_unlocking_the_h"/>
+
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+            <!-- Back Arrow -->
+            <FrameLayout
+                android:id="@+id/frameStackarrowleft"
+                android:gravity="start"
+                android:layout_height="@dimen/_35pxv"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_width="match_parent"
+                style="@style/groupStyleteal_700">
+
+                <ImageView
+                    android:id="@+id/imageArrowleft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="@dimen/_11pxh"
+                    android:layout_marginTop="@dimen/_7pxv"
+                    android:layout_marginEnd="@dimen/_11pxh"
+                    android:layout_marginBottom="@dimen/_6pxv"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_arrowleft"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_arrowleft" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <!-- Content -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="?attr/actionBarSize">
+
+            <!-- Display Image -->
+            <ImageView
+                android:id="@+id/imageCaptured"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/placeholder_image"/>
+
+            <!-- Plant Information -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_16px">
+
+                <TextView
+                    android:id="@+id/txtHerbName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@{resultVM.resultModel.herbName}"
+                    style="@style/TextAppearance.AppCompat.Large"/>
+
+                <TextView
+                    android:id="@+id/txtScientificName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@{resultVM.resultModel.scientificName}"
+                    style="@style/TextAppearance.AppCompat.Medium"/>
+
+                <TextView
+                    android:id="@+id/txtDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@{resultVM.resultModel.description}"
+                    style="@style/TextAppearance.AppCompat.Body1"/>
+
+                <TextView
+                    android:id="@+id/txtMedicinalUses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@{resultVM.resultModel.medicinalUses}"
+                    style="@style/TextAppearance.AppCompat.Body1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

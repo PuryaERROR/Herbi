@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="termsAndPolicyVM" type="com.herbi.app.modules.termsandpolicy.data.viewmodel.TermsAndPolicyVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearTermsandPolic"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageLogo"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_172pxh"
+            android:layout_marginEnd="@dimen/_32pxh"
+            android:layout_marginStart="@dimen/_32pxh"
+            android:layout_marginTop="@dimen/_287pxv"
+            android:layout_width="@dimen/_176pxh"
+            android:scaleType="fitXY" imageRes="@{@drawable/img_logo}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_logo"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnContinue"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_32pxh"
+            android:layout_marginStart="@dimen/_32pxh"
+            android:layout_marginTop="@dimen/_245pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_13pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_13pxv" android:singleLine="true"
+            android:text="@string/lbl_getstarted"
+            android:textAllCaps="false"
+            style="@style/btnGradientRounded" tools:text="@string/lbl_getstarted"/>
+    </LinearLayout>
+</layout>

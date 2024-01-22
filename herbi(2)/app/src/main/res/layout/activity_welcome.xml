@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="welcomeVM" type="com.herbi.app.modules.welcome.data.viewmodel.WelcomeVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearWelcome"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <TextView android:ellipsize="end" android:id="@+id/txtSkip"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_42pxh"
+            android:layout_marginStart="@dimen/_42pxh"
+            android:layout_marginTop="@dimen/_34pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{welcomeVM.welcomeModel.txtSkip}"
+            style="@style/txtNunitolight12" tools:text="@string/lbl_skip"/>
+        <TextView android:gravity="start" android:id="@+id/txtLanguage"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_15pxh"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_width="match_parent"
+            android:text="@{welcomeVM.welcomeModel.txtLanguage}"
+            style="@style/txtMontserratromansemibold30" tools:text="@string/msg_welcome_to_he"/>
+        <ImageView android:id="@+id/imageHandholdingphon"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_308pxh"
+            android:layout_marginEnd="@dimen/_15pxh"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_marginTop="@dimen/_11pxv"
+            android:layout_width="@dimen/_308pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_handholdingphon}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_handholdingphon"/>
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearColumndescription"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_15pxh"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_marginTop="@dimen/_2pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStyleteal_700cornerRadius">
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtDescription"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_18pxv"
+                android:layout_marginEnd="@dimen/_26pxh"
+                android:layout_marginStart="@dimen/_26pxh"
+                android:layout_marginTop="@dimen/_22pxv"
+                android:layout_width="match_parent"
+                android:text="@{welcomeVM.welcomeModel.txtDescription}"
+                style="@style/txtNunitosemibold17" tools:text="@string/msg_herbi_is_a_mobi"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

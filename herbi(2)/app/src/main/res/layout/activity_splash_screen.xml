@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="splashScreenVM" type="com.herbi.app.modules.splashscreen.data.viewmodel.SplashScreenVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearSplashScreen"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageLogo"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_172pxh"
+            android:layout_marginEnd="@dimen/_50pxh"
+            android:layout_marginStart="@dimen/_50pxh"
+            android:layout_marginTop="@dimen/_314pxv"
+            android:layout_width="@dimen/_176pxh"
+            android:scaleType="fitXY" imageRes="@{@drawable/img_logo}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_logo"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtUnlockingtheH"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_49pxh"
+            android:layout_marginStart="@dimen/_50pxh"
+            android:layout_marginTop="@dimen/_254pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{splashScreenVM.splashScreenModel.txtUnlockingtheH}"
+            style="@style/txtNunitosemibold11" tools:text="@string/msg_unlocking_the_h"/>
+    </LinearLayout>
+</layout>

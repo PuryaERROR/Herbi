@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">herbi</string>
+    <string name="loading">Loading?</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="msg_it_s_just_simpl">IT\u2019S JUST SIMPLE!</string>
+    <string name="lbl_getstarted">Get Started</string>
+    <string name="msg_pangalan_ng_hal">Pangalan ng Halaman:</string>
+    <string name="msg_welcome_to_he">Welcome to  
+Herbi</string>
+    <string name="msg_ang_mga_ugat_ay">"Ang mga ugat ay may astringent na epekto na maaaring makatulong sa pagbawas ng pamamaga sa isang tiyak na bahagi ng katawan. Ang mga ito ay niluluto at ginagamit sa paggamot ng diarrhea. Ang mga dahon at tangkay ay niluluto para sa mga ulcer at kinakain para sa kanilang banayad na epekto sa pagpapalambot ng tiyan, lalo na para sa mga buntis na kababaihan. Mula sa katas ng prutas ng 'Rubra' cultivar, maaaring kumuha ng pula na pampakulay."</string>
+    <string name="lbl_herb_name">Herb Name: </string>
+    <string name="msg_aghan_na_pangal">Aghan na Pangalan: </string>
+    <string name="lbl_oregano2">Oregano</string>
+    <string name="msg_ang_ampalaya_o">"Ang Ampalaya, o kilala rin bilang amargoso o ampalaya, ay isang umuusad na halaman na may pait na lasa na dulot ng momordicin. Ang halamang ito ay umaabot ng hanggang 5 metro at may hugis-puso na mga dahon na may lapad na 5-10 sentimetro, nahahati sa 5-7 mga lobes. Ang Ampalaya ay may hiwalay na dilaw na bulaklak na lalaki at babae, at ang kanyang malasang berdeng prutas ay oblong na may matalim na dulo, may mga kulubot, at may mga pilipit. Kapag ito'y hinog, ang prutas ay sumasabog upang palayain ang mga buto, na pampatagilid at may mga may uka na gilid."</string>
+    <string name="lbl_guava_bayabas">Guava/ Bayabas</string>
+    <string name="lbl_psidium_guajava2">Psidium guajava</string>
+    <string name="lbl_alugbati">ALUGBATI</string>
+    <string name="msg_aghan_na_pangal2">Aghan na Pangalan:</string>
+    <string name="msg_ang_dedoksiyon">Ang dedoksiyon ng mga dahon ay ginagamit para sa sugat at ulcer. Ang sariwang tangkay at mga dahon ay binubogbog at inilalagay bilang poultice sa mga kalmot, kirot, eksema, pigsa, at impeksyon ng karbunkol.</string>
+    <string name="msg_paggamit_sa_pag2">Paggamit sa Paggamot</string>
+    <string name="msg_moringa_oleifer">Moringa oleifera</string>
+    <string name="lbl_camera_icon">Camera Icon</string>
+    <string name="lbl_gallery_icon">Gallery Icon</string>
+    <string name="msg_camera_permission">Please grant camera permission to use the camera.</string>
+    <string name="lbl2">:
+</string>
+    <string name="msg_capture_an_imag">"Capture an image of a plant that you
+want to identify using your mobile device's camera"</string>
+    <string name="lbl_description">Description:</string>
+    <string name="lbl_medicinal_uses">Medicinal Uses:                        </string>
+    <string name="msg_origanum_amboin">Origanum Amboinicus</string>
+    <string name="msg_the_roots_are_a">"The roots are astringent to reduce local swellings. They are cooked and used in the treatment of diarrhea. The leaves and stems are cooked for ulcers and eaten for their mild laxative properties for pregnant women. A red dye is obtained from the juice of the fruits of the 'Rubra' cultivar."</string>
+    <string name="lbl_alugbati2">Alugbati</string>
+    <string name="lbl_psidium_guajava">Psidium Guajava</string>
+    <string name="msg_oregano_contain">Oregano contains chemicals that might help reduce cough. Oregano also might help with digestion and with fighting against some bacteria and viruses. People use oregano for wound healing, parasite infections, and many other conditions, but there is no good scientific evidence to support these uses.</string>
+    <string name="msg_guava_leaves_ar">Guava leaves are oblong to oval in shape and average 7-15 centimeters long and 3-5 centimeters wide. The leaves have short petioles, or stalks that join the leaf to the stem. The surface of the deep green Guava leaf is wide and leathery with faint white veins and some light brown patches.</string>
+    <string name="lbl_bayabas">BAYABAS</string>
+    <string name="msg_scientific_name2">Scientific Name:</string>
+    <string name="lbl_ampalaya">AMPALAYA</string>
+    <string name="lbl_how_herbi_works">How
+HERBI Works</string>
+    <string name="msg_isang_perennia">Isang  perennial vine sa pamilyang Basellaceae. Ito ay isang frost-tender perennial na itinatanim bilang annual, katutubong matatagpuan sa tropical na mga rehiyon sa Asya. Ang halamang ito karaniwang lumalaki bilang anim-na-talampakan na baging, ngunit maaaring umabot ng 30 talampakan ang haba. Ang malasutla at mabuto na mga dahon at tangkay ay ginagamit bilang gulay, maaaring hilaw sa mga salad o niluluto sa sabaw, salad, ginisa, o bilang isang kahoy na gulay sa mga nilaga.</string>
+    <string name="lbl_description2">Description</string>
+    <string name="msg_herbi_is_a_mobi">HERBI is a mobile-based thesis project created by a group of student from West Visayas State University -  College of Information and Communications Technology. It is a Plant Identification Application that can easily identify a specific plant if being captured.</string>
+    <string name="lbl_horseradish">Horseradish</string>
+    <string name="lbl_filipino">Filipino</string>
+    <string name="lbl_eng">Eng</string>
+    <string name="lbl_basella_alba_l">Basella Alba L.</string>
+    <string name="msg_leaves_are_alte">Leaves are alternate, usually thrice pinnate, 25 to 50 centimeters long. Each compound leaf contains 3-9 very thin leaflets dispersed on a compound (3 times pinnate) stalk.</string>
+    <string name="lbl_skip">Skip</string>
+    <string name="msg_decoction_of_le">Decoction of leaves is usd for sores and ulcers.Dresh stem and leaves are pounded and applied as poultice to sprains, contusion pains, eczema, furuncle, and carbuncle infections.</string>
+    <string name="lbl">:</string>
+    <string name="msg_scientific_name4">Scientific Name:
+</string>
+    <string name="lbl_bitter_guord">Bitter Guord</string>
+    <string name="msg_scientific_name3">Scientific Name:
+Origanum Amboinicus</string>
+    <string name="lbl_malunggay">MALUNGGAY</string>
+    <string name="lbl_bayabas2">Bayabas</string>
+    <string name="msg_ampalaya_also">Ampalaya, also known as bitter melon or bitter gourd, is a
+climbing vine with a bitter taste attributed to the presence of momordicin, making it one of the most bitter vegetables. The plant grows up to 5m and features heart-shaped leaves with 5-10 cm diameter, cut into 5-7 lobes. Ampalaya has separate yellow male and female flowers, and its fleshy green fruit is oblong with pointed ends, ribbed, and wrinkled. When mature, the fruit bursts open to release seeds, which are flat with ruminated margins.</string>
+    <string name="msg_ang_oregano_ay2">"Ang oregano ay naglalaman ng kemikal na maaaring makatulong sa pagbawas ng ubo. Maaaring makatulong din ang oregano sa digestion at sa pakikipaglaban laban sa ilang mga bacteria at virus. Ginagamit ng ilang tao ang oregano para sa paghilom ng sugat, laban sa impeksiyon ng mga parasito, at marami pang iba't ibang kondisyon, ngunit walang sapat na siyentipikong ebidensya upang suportahan ang mga ganitong paggamit."</string>
+    <string name="lbl_capture">CAPTURE</string>
+    <string name="msg_unlocking_the_h">Unlocking the Healing Wonders of Philippine Herbs</string>
+    <string name="lbl_feed">Feed</string>
+    <string name="msg_ang_mga_dahon_n">Ang mga dahon ng bayabas ay may pormang oblong hanggang oval at may average na haba na 7-15 sentimetro at lapad na 3-5 sentimetro. Ang mga dahon ay may maikli at malapad na tangkay na nag-uugnay sa dahon sa tangkay. Ang ibabaw ng malalim na berdeng dahon ng bayabas ay malapad at matigas na may mahinang puting ugat at ilang maliit na light brown na bahagi.</string>
+    <string name="msg_mommordica_char">Mommordica Charantia</string>
+    <string name="msg_ang_ampalaya_ay">Ang ampalaya ay may mayamang kasaysayan ng tradisyonal na gamit sa panggagamot na may kilalang benepisyo sa kalusugan, lalo na sa pag-address ng kondisyon tulad ng diabetes sa pamamagitan ng kakayahan nitong ibaba ang antas ng blood sugar. Ginagamit din ang katas nito bilang analgesic sa lagnat, sakit ng ulo, at pangangalay, habang pinahahalagahan din ang ampalaya sa potensyal nitong magtaguyod ng pagbaba ng timbang sa pamamagitan ng pagpapalakas ng metabolismo at pag-sunog ng taba.</string>
+    <string name="lbl_oregano">OREGANO</string>
+    <string name="msg_description">Description:
+                                                        Oregano typically grows to 1-3\u2019 tall and to 2\u2019 wide on square stems clad with aromatic, glandular-spotted, rounded to ovate leaves (to 1 ?\u2019\u2019 long) which are usually entire but sometimes have slightly toothed margins.</string>
+    <string name="msg_ang_mga_dahon_n2">Ang mga dahon ng bayabas ay may anti-inflammatory na epekto at kakayahang antibacterial na lumalaban sa impeksiyon at pumapatay ng germs, na makakatulong sa paghadlang ng pamamaga sa mga ngipin. Ang ekstrak ng dahon nito ay ginagamit bilang gamot sa ubo, pagtatae, at mga oral na sugat, pati na rin sa ilang namamagang gilagid.</string>
+    <string name="lbl_analyzing">ANALYZING</string>
+    <string name="msg_ang_mga_dahon_a">Ang mga dahon ay alternado, karaniwanay may tatlong palapad, may habang 25 hanggang 50 sentimetro. Ang bawat kumpuesto ng dahon ay naglalaman ng 3-9 napakapayat na mga leaflet na nakaayos sa isang kumpuesto (3 beses pinnate) na tangkay.</string>
+    <string name="msg_paggamit_sa_pag">Paggamit sa Paggamot                        </string>
+    <string name="msg_bitter_gourd_o">Bitter gourd, or ampalaya, has a rich history of traditional medicinal use with recognized health benefits, particularly in addressing conditions such as diabetes through its ability to lower blood sugar levels. Additionally, its juice is employed as an analgesic for fever, headaches, and body pains, while ampalaya is also valued for its potential in promoting weight loss by enhancing metabolism and fat burning.</string>
+    <string name="msg_here_you_go_th">Here you go!
+The Result will popped-out to your screen</string>
+    <string name="msg_herb_name_oreg">Herb Name:
+Oregano</string>
+    <string name="lbl_guava">Guava</string>
+    <string name="msg_origanum_amboin2">Origanum amboinicus (Philippine Oregano) contains rosmarinic acid, ursolic acid, thymol, and carvacrol that have anti-inflammatory, antibacterial, antioxidant, antifungal and antiviral properties. Oregano also consists of flavonoids, triterpenoids, vitamins, and minerals. One of its constituents called origanoside was found to have tyrosinase inhibiting activity which suggests that it helps decreases melanin production and may be used for skin whitening purposes. Oregano oil and tea are particularly used for antibacterial and immune system enhancing effect. Oregano has been traditionally used to treat respiratory, gastrointestinal, menstrual, and urinary tract disorders. Topical application has been employed for dandruff and acne.</string>
+    <string name="msg_guava_leaves_ha">Guava leaves have anti-inflammatory action and antibacterial ability that fights infections and kills germs and people consuming guava leaves at home will help curb toothaches. Its leaf\u2019s extract is being used as a medicine in cough, diarrhea, and oral ulcers and in some swollen gums wound.</string>
+    <string name="msg_an_edible_peren">An edible perennial vine in the family Basellaceae. A frost-tender perennial grown as an annual, native to tropical regions in Asia. The plant typically grows to a six-foot vine, but can often reach 30 feet in length. The succulent leaves and stems are used as a vegetable, either raw in salads or cooked in soups, salads, stir-fry or as a pot herb for stews.</string>
+    <string name="msg_wait_for_a_few">Wait for a few second to see the result</string>
+    <string name="msg_oregano_typical">"Oregano typically grows to 1-3' tall and to 2' wide on square stems clad with aromatic, glandular-spotted, rounded to ovate leaves (to 1 1/2\u201d long) which are usually entire but sometimes have slightly toothed margins."</string>
+    <string name="lbl_settings">Settings</string>
+    <string name="msg_bushy_perennial">Bushy Perennial Mint</string>
+    <string name="lbl_deskripsyon">Deskripsyon:</string>
+    <string name="msg_ang_oregano_ay">Ang oregano ay karaniwang tumataas ng 1-3 piye sa taas at 2 piye sa lapad sa mga parisukat na tangkay na may makapal na mabango, glandular-spotted, bilog hanggang oblong na mga dahon (hanggang 1 ? pulgada ang haba) na karaniwang buo ngunit paminsang may kaunting mga ngipin sa gilid.</string>
+    <string name="msg_explore_the_phi">Explore the Philippine Medicinal Plants</string>
+    <string name="lbl_malunggay2">Malunggay</string>
+    <string name="msg_oregano_typical2">Oregano typically grows to 1-3\u2019 tall and to 2\u2019 wide on square stems clad with aromatic, glandular-spotted, rounded to ovate leaves (to 1 ?\u2019\u2019 long) which are usually entire but sometimes have slightly toothed margins.</string>
+    <string name="msg_scientific_name">Scientific Name: </string>
+    <string name="lbl_ampalaya2">Ampalaya</string>
+    <string name="lbl_medicinal_uses4">Medicinal Uses:
+</string>
+    <string name="msg_medicinal_uses">Medicinal Uses:
+                                                        Origanum amboinicus (Philippine Oregano) contains rosmarinic acid, ursolic acid, thymol, and carvacrol that have anti-inflammatory, antibacterial, antioxidant, antifungal and antiviral properties. Oregano also consists of flavonoids, triterpenoids, vitamins, and minerals. One of its constituents called origanoside was found to have tyrosinase inhibiting activity which suggests that it helps decreases melanin production and may be used for skin whitening purposes. Oregano oil and tea are particularly used for antibacterial and immune system enhancing effect. Oregano has been traditionally used to treat respiratory, gastrointestinal, menstrual, and urinary tract disorders. Topical application has been employed for dandruff and acne.</string>
+    <string name="lbl_medicinal_uses3">Medicinal Uses:
+                          </string>
+    <string name="lbl_herb_name2">Herb Name:
+</string>
+    <string name="lbl_medicinal_uses2">Medicinal Uses:</string>
+    <string name="msg_this_contact_has_no_phone_nu">This contact has no phone number</string>
+    <string name="msg_camera_storage_permission">This Application need permission\n1.Camera permission to capture the image.\n2.Storage Access permission to save the captured image.</string>
+    <string name="lbl_camera">Camera</string>
+    <string name="lbl_gallery">Gallery</string>
+</resources>
