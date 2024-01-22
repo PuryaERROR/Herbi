@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         style="@style/groupStylewhite_A700">
-
+s
         <!-- Toolbar -->
         <LinearLayout
             android:id="@+id/linearColumnlogog"
@@ -46,16 +46,17 @@
 
                     <TextView
                         android:id="@+id/txtUnlockingtheH"
-                        android:ellipsize="end"
+                        style="@style/txtNunitoitalicregular11"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/_7pxv"
                         android:layout_marginStart="@dimen/_34pxh"
                         android:layout_marginTop="@dimen/_16pxv"
+                        android:layout_marginBottom="@dimen/_7pxv"
                         android:layout_weight="0.86"
-                        android:layout_width="0dp"
+                        android:ellipsize="end"
                         android:singleLine="true"
-                        style="@style/txtNunitoitalicregular11"
-                        tools:text="@string/msg_unlocking_the_h"/>
+                        tools:ignore="TextSizeCheck"
+                        tools:text="@string/msg_unlocking_the_h" />
 
                 </LinearLayout>
             </androidx.appcompat.widget.Toolbar>

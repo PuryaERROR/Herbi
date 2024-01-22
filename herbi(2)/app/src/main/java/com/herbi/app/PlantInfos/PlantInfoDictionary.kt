@@ -1,4 +1,4 @@
-package com.herbi.app.PlantInfos
+package com.herbi.app.plantInfos
 
 data class PlantInfo(
     val herbName: String,

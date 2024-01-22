@@ -3,8 +3,8 @@ package com.herbi.app.modules.result.data.viewmodel
 import android.os.Bundle
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.herbi.app.PlantInfos.PlantInfoDictionary
 import com.herbi.app.modules.result.data.model.ResultModel
+import com.herbi.app.plantInfos.PlantInfoDictionary
 import org.koin.core.KoinComponent
 
 class ResultVM : ViewModel(), KoinComponent {
