@@ -17,7 +17,7 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.herbi.app.PlantInfos.PlantInfoDictionary
+import com.herbi.app.plantInfos.PlantInfoDictionary
 import com.herbi.app.appcomponents.di.MyApp
 import com.herbi.app.modules.result.ui.ResultActivity
 import com.herbi.app.tflite.TensorFlowLiteHelper
